@@ -1,4 +1,4 @@
-````markdown
+
 # Express Project
 
 This is a simple Express application with a toggle button feature.
@@ -15,7 +15,7 @@ Clone the repository to your local machine:
 ```sh
 git clone https://github.com/ruberino/functions-workshop
 ```
-````
+
 
 Navigate to the project directory:
 
