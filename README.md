@@ -6,7 +6,11 @@ The setting is a lightbulb we want the chatbot to check the status for and to to
 
 ## Introduction
 
-This repository contains the code for the functions workshop. This is you assignment 1. clone the repository of choice to your local machine 2. Start and run the server locally, see the readme in for each language for instructions 3. Add the endpoint to aboveGPT and try to get it to call the endpoints
+This repository contains the code for the functions workshop. This is you assignment
+
+1. clone the repository of choice to your local machine
+2. Start and run the server locally, see the readme in for each language for instructions
+3. Add the endpoint to aboveGPT and try to get it to call the endpoints
 
 ## Assignment
 
