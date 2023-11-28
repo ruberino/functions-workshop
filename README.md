@@ -13,8 +13,8 @@ This repository contains the code for the functions workshop. This is you assign
 ## Assignment
 
 - See if you can get the chatbot to call your functions, check the current status of the buttonand toggle the button on and off using only the chatbot.
-- You must tweak (promt engeneer) the swagger file to make it work. (hint: the chatbot does not care about response codes, but the description of the endpoint and parameters is important)
-- Modify the code and create a new endpoint to dim the lightbulb. edit the in memory vaiable accordingly.
+- You must tweak (promt engeneer) the swagger file to make it work. (hint: the chatbot does not care about response codes, but the description of the endpoint and parameters is important).
+- Modify the code and create an array with buttons, the buttons should have labels and a status (on/off). The chatbot should be able to list the buttons and toggle the status of the buttons.
 
 ### Extra Credit:
 
