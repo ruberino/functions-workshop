@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: Button Status API
+  version: 1.0.0
+  description: A simple API to get and toggle a button status.
+
+paths:
+  /buttonStatus:
+    get:
+      summary: Get Button Status
+      description: Returns the current status of the button (true or false).
+      responses:
+        '200':
+          description: Successfully retrieved the status of the button.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: boolean
+                    example: false
+
+  /buttonToggle:
+    get:
+      summary: Toggle Button Status
+      description: Toggles the current status of the button.
+      responses:
+        '200':
+          description: Successfully toggled the status of the button.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  toggledTo:
+                    type: boolean
+                    example: true
