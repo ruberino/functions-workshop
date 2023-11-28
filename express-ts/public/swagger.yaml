@@ -7,6 +7,7 @@ info:
 paths:
   /buttonStatus:
     get:
+      operationId: getButtonStatus
       summary: Get Button Status
       description: Returns the current status of the button (true or false).
       responses:
@@ -23,6 +24,7 @@ paths:
 
   /buttonToggle:
     get:
+      operationId: toggleButtonStatus
       summary: Toggle Button Status
       description: Toggles the current status of the button.
       responses:
