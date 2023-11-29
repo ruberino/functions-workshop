@@ -18,6 +18,7 @@ public class Program
         {
             _buttonStatus = !_buttonStatus;
             app.Logger.LogInformation("Toggle button status to '{ButtonStatus}'", _buttonStatus);
+            return new { ButtonStatus = _buttonStatus };
         });
 
         app.MapGet("/swagger.yaml", () =>
